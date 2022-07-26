@@ -39,8 +39,8 @@ echo -e "${RED} [+] Running assetfinder ... ${RESET}"
 assetfinder $domain | grep $domain >> $subdomain_path/found.txt
 
 # Running Amass and storing the output
-#echo -e "${RED} [+] Running Amass.  This could take a while ... ${RESET}"
-#amass enum -d $domain >> $subdomain_path/found.txt
+echo -e "${RED} [+] Running Amass.  This could take a while ... ${RESET}"
+amass enum -d $domain >> $subdomain_path/found.txt
 
 # Running httprobe and other things to see what domains are live and storing the output
 echo -e "${RED} [+] Checkin' what's alive ... ${RESET}"
