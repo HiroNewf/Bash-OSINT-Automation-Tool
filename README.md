@@ -7,4 +7,4 @@ This script does the following
 * Runs assetfinder and stores the output
 * Runs Amass and stores the output
 * Runs httprobe to see what domains are up and stores the output
-* And finnaly runs gowitness to take screenshots of all of the live sites and stores the output
+* And finally runs gowitness to take screenshots of all of the live sites and stores the output
