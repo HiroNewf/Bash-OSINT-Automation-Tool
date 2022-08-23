@@ -1,4 +1,4 @@
-# Bash-automation-tools
+# Bash-OSINT-Automation-Tool
 
 This script does the following
 * Creates directories to store all of the output information
